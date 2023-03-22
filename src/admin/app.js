@@ -34,7 +34,7 @@ const config = {
     }
   },
   // Disable video tutorials
-  tutorials: true,
+  tutorials: false,
   // Disable notifications about new Strapi releases
   notifications: { releases: false },
 };
