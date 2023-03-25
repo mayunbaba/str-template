@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scenics",
+  "info": {
+    "singularName": "scenic",
+    "pluralName": "scenics",
+    "displayName": "scenic"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "province": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    }
+  }
+}
