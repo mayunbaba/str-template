@@ -4,7 +4,8 @@
   "info": {
     "singularName": "scenic",
     "pluralName": "scenics",
-    "displayName": "scenic"
+    "displayName": "scenic",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -25,10 +26,10 @@
       "required": true
     },
     "longitude": {
-      "type": "string"
+      "type": "float"
     },
     "latitude": {
-      "type": "string"
+      "type": "float"
     }
   }
 }

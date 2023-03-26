@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-03-25T23:48:07.815Z"
+    "x-generation-date": "2023-03-26T02:09:49.433Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -111,10 +111,12 @@
                 "type": "string"
               },
               "longitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "latitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               }
             }
           }
@@ -139,10 +141,12 @@
                 "type": "string"
               },
               "longitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "latitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "createdAt": {
                 "type": "string",
@@ -460,10 +464,12 @@
                 "type": "string"
               },
               "longitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "latitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "createdAt": {
                 "type": "string",
@@ -814,10 +820,12 @@
                 "type": "string"
               },
               "longitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "latitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "createdAt": {
                 "type": "string",
@@ -1135,10 +1143,12 @@
                 "type": "string"
               },
               "longitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "latitude": {
-                "type": "string"
+                "type": "number",
+                "format": "float"
               },
               "createdAt": {
                 "type": "string",
