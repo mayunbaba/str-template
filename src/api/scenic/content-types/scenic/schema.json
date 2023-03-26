@@ -26,10 +26,12 @@
       "required": true
     },
     "longitude": {
-      "type": "float"
+      "type": "float",
+      "required": true
     },
     "latitude": {
-      "type": "float"
+      "type": "float",
+      "required": true
     }
   }
 }
