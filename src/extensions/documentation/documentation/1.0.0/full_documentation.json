@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-03-26T05:18:45.193Z"
+    "x-generation-date": "2023-03-28T09:40:54.193Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -99,7 +99,8 @@
               "province",
               "city",
               "longitude",
-              "latitude"
+              "latitude",
+              "address"
             ],
             "type": "object",
             "properties": {
@@ -119,6 +120,9 @@
               "latitude": {
                 "type": "number",
                 "format": "float"
+              },
+              "address": {
+                "type": "string"
               }
             }
           }
@@ -149,6 +153,9 @@
               "latitude": {
                 "type": "number",
                 "format": "float"
+              },
+              "address": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -472,6 +479,9 @@
               "latitude": {
                 "type": "number",
                 "format": "float"
+              },
+              "address": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -829,6 +839,9 @@
                 "type": "number",
                 "format": "float"
               },
+              "address": {
+                "type": "string"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -1151,6 +1164,9 @@
               "latitude": {
                 "type": "number",
                 "format": "float"
+              },
+              "address": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",

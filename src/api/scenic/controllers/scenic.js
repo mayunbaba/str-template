@@ -18,27 +18,27 @@ module.exports = createCoreController('api::scenic.scenic', (strapi) => ({
   //   return { data, meta };
   // },
   // 重写create方法，修改入参
-  async create(ctx) {
-    const res = await baidu.geocoding(ctx.request.body.data.city, ctx.request.body.data.name);
-    if (res.longitude) {
-      ctx.request.body.data.longitude = res.longitude;
-      ctx.request.body.data.latitude = res.latitude;
-      return await super.create(ctx);
-    } else {
-      ctx.status = 400;
-      return res;
-    }
-  },
-  // 重写update方法，修改入参
-  async update(ctx) {
-    const res = await baidu.geocoding(ctx.request.body.data.city, ctx.request.body.data.name);
-    if (res.longitude) {
-      ctx.request.body.data.longitude = res.longitude;
-      ctx.request.body.data.latitude = res.latitude;
-      return await super.update(ctx);
-    } else {
-      ctx.status = 400;
-      return res;
-    }
-  },
+  // async create(ctx) {
+  //   const res = await baidu.geocoding(ctx.request.body.data.city, ctx.request.body.data.name);
+  //   if (res.longitude) {
+  //     ctx.request.body.data.longitude = res.longitude;
+  //     ctx.request.body.data.latitude = res.latitude;
+  //     return await super.create(ctx);
+  //   } else {
+  //     ctx.status = 400;
+  //     return res;
+  //   }
+  // },
+  // // 重写update方法，修改入参
+  // async update(ctx) {
+  //   const res = await baidu.geocoding(ctx.request.body.data.city, ctx.request.body.data.name);
+  //   if (res.longitude) {
+  //     ctx.request.body.data.longitude = res.longitude;
+  //     ctx.request.body.data.latitude = res.latitude;
+  //     return await super.update(ctx);
+  //   } else {
+  //     ctx.status = 400;
+  //     return res;
+  //   }
+  // },
 }));
